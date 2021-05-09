@@ -1,4 +1,4 @@
-class Mango { // My favourite fruits is guava instead
+class Mango { // My favourite fruits is guava
     public void Season() {
         System.out.println("Mango is the king of fruits");
         System.out.println("It is available in summer season");
@@ -18,14 +18,22 @@ class Grape {
         System.out.println("They are available during winter season");
     }
 }
+class Guava{
+    public void Season(){
+        System.out.println("Guavas are better than any other fruit");
+        System.out.println("They are available all year around");
+    }
+}
 
-public class Seasonal_Fruits {
+public class Fruits {
     public static void main(String[] args) {
         Mango fruit1 = new Mango();
         Apple fruit2 = new Apple();
         Grape fruit3 = new Grape();
+        Guava fruit4 =new Guava();
         fruit1.Season();
         fruit2.Season();
         fruit3.Season();
+        fruit4.Season();
     }
 }
